@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,
+	 initial-scale=1" userscable=no>
+	<title>学院信息管理系统</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/common.css">
+	<!-- HTML5的垫片脚本 -->
+	<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<nav class="container">
+		<a href="index.html" class="btn btn-success">学院管理</a>
+		<a href="class.html" class="btn btn-default">班级管理</a>
+		<a href="exam.html" class="btn btn-default">考试</a>
+	</nav>
+	<hr>
+	<div id="content_box" class="container">
+		<div class="row">
+			<div id="menu" class="col-sm-2">
+			<div class="btn-group-vertical">
+				<a href="#" class="btn btn-success btn-block">学员信息管理</a>									
+				<a href="leave.html" class="btn btn-default btn-block">请假</a></li>
+			</div>
+				<!-- <ul class="list-unstyled">
+					<li>
+						<a href="#" class="btn btn-success btn-block">		学员信息管理
+						</a>
+					</li>
+					<li>
+						<a href="leave.html" class="btn btn-default btn-block">请假</a></li>
+				</ul> -->
+			</div>
+	        <div id="content" class="col-sm-10">
+	        	<p>
+	        		<button class="btn btn-primary">新增学员</button>
+	        	</p>
+			    <table class="table table-striped table-hover table-bordered">
+			        <thead>
+				        <tr>
+				        	<th>ID</th>
+				        	<th>姓名</th>
+				        	<th>年龄</th>
+				        	<th>专业</th>
+				        	<th>操作</th>
+				        </tr>
+			        </thead>
+			    	<tr>
+			    		<td>1</td>
+			    		<td>卫豪杰</td>
+			    		<td>20</td>
+			    		<td>物理学</td>
+			    		<td>
+			    			<button class="btn btn-default">修改</button>
+			    			<button class="btn btn-default">删除</button>
+			    		</td>
+			    	</tr>
+			    	<tr>
+			    		<td>2</td>
+			    		<td>吕燕</td>
+			    		<td>21</td>
+			    		<td>物理学</td>
+			    		<td>
+			    			<button class="btn btn-default">修改</button>
+			    			<button class="btn btn-default">删除</button>
+			    		</td>
+			    	</tr>
+			    	<tr>
+			    		<td>3</td>
+			    		<td>吴洪翔</td>
+			    		<td>21</td>
+			    		<td>物理学</td>
+			    		<td>
+			    			<button class="btn btn-default">修改</button>
+			    			<button class="btn btn-default">删除</button>
+			    		</td>
+			    	</tr>
+			    	<tr>
+			    		<td>4</td>
+			    		<td>陈海燕</td>
+			    		<td>21</td>
+			    		<td>物理学</td>
+			    		<td>
+			    			<button class="btn btn-default">修改</button>
+			    			<button class="btn btn-default">删除</button>
+			    		</td>
+			    	</tr>
+			    </table>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

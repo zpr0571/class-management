@@ -1,0 +1,10 @@
+    nav{
+    	padding-top: 20px;
+    }
+    #content_box{
+    	margin-top: 10px;
+    }
+    /*使模块列表中按钮100%宽度*/
+    #menu>.btn-group-vertical{
+		display:block;
+    }
